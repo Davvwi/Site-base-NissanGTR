@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style_contato.css">
+    <title>contato</title>
+</head>
+
+<body>
+    <header>
+        <img src="/img/Logo.png" alt="logo nissan">
+        <nav>
+            <ul>
+                <li id="home"><a href="/index.html">Home</a></li>
+                <li id="historia"><a href="/pags/historia.html">História</a></li>
+                <li id="saiba_mais"><a href="/pags/saiba_mais.html">Saiba Mais</a></li>
+                <li id="contato"><a href="/pags/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="formulario">
+        <div class="interface">
+            <h2>Entre em contato</h2>
+            <form action="formulario">
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                <input type="text" id="telefone" name="telefone" placeholder="Seu telefone">
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite seua mensagem aqui..." required></textarea>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
